@@ -1,0 +1,33 @@
+table,tr,th,td,caption{
+    border: 2px  /*solid #eee; */ solid rgba(0, 0, 0, 0.647);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    /* height: 30px; */
+    text-align: center;
+    /* color: rgb(125, 125, 176); */
+}
+/* a{
+    text-decoration: none;
+    color: black;
+} */
+.n{
+    background-color: black;
+    border-radius: 36px;
+}
+.n ul{
+    list-style: none;
+    overflow: auto;
+}
+.n li{
+    float:left;
+    margin: 13px 20px;
+}
+.n li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 3px;
+}
+.n li a:hover{
+    color: blue;
+}
